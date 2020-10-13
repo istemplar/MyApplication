@@ -11,16 +11,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         button1.setOnClickListener {
-            Toast.makeText(this, "BUTTON ONE HAS BEEN PRESSED", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "BUTTON 1 HAS BEEN PRESSED", Toast.LENGTH_SHORT).show()
         }
         button2.setOnClickListener {
-            Toast.makeText(this, "BUTTON TWO HAS BEEN PRESSED", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "BUTTON 2 HAS BEEN PRESSED", Toast.LENGTH_SHORT).show()
         }
         button3.setOnClickListener {
-            Toast.makeText(this, "BUTTON THREE HAS BEEN PRESSED", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "BUTTON 3 HAS BEEN PRESSED", Toast.LENGTH_SHORT).show()
         }
         button4.setOnClickListener {
-            Toast.makeText(this, "BUTTON FOUR HAS BEEN PRESSED", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "BUTTON 4 HAS BEEN PRESSED", Toast.LENGTH_SHORT).show()
         }
     }
 }
